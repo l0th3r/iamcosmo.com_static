@@ -3,6 +3,7 @@ function popUp() {
     popup.classList.toggle("show");
     setTimeout(function(){ popup.classList.add("hide"); }, 2500);
 }
+
 function copyStringToClipboard(str) {
   var el = document.createElement('textarea');
   el.value = str;
