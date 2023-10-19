@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | iamcosmo.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel='stylesheet' href='/public/stylesheets/style.css' />
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico" />
+  </head>
+  <body>
+    <ul class="nav centered">
+      <li class="nav-item underline-">
+        <a class="fs-3 nav-link active" aria-current="page" href="/#">Home</a>
+      </li>
+      <li class="nav-item underline-">
+        <a class="fs-3 nav-link" href="/index.html#contact">Links</a>
+      </li>
+      <li class="nav-item underline-">
+        <a class="fs-3 nav-link" href="/index.html#projects">Projects</a>
+      </li>
+      <li class="nav-item underline-">
+        <a class="fs-3 nav-link" href="/curriculum.html">Curriculum</a>
+      </li>
+      <li class="nav-item underline-">
+        <a class="fs-3 nav-link" href="/reco.html">Recommendations</a>
+      </li>
+      <!-- <li class="nav-item underline-">
+        <a class="fs-3 nav-link" href="#curriculum-holder">Curriculum</a>
+      </li> -->
+      <!-- <li class="nav-item underline-">
+        <a class="fs-3 nav-link" href="#bonus-holder">Bonus</a>
+      </li> -->
+    </ul>
+<div class="page-container">
+
+<div class="container">
+  <!-- INTRO -->
+  <div class="text-center row main-title">
+    <p class="title str">Hi, my name is Cosmo.</p>
+  </div>
+
+  <div class="text-center sub-title row">
+    <p id="contact" class="fs-2">
+      Passionate and ambitious<br>Becoming qualified and skilled is my main goal
+    </p>
+  </div>
+
+
+<!-- LINKS -->
+  <div class="section-container">
+    <div class="media centered">        
+      <a class="media-box first backgrounded" target="_blank" rel="noopener noreferrer" href="https://github.com/l0th3r">
+        <div class="media-case">
+          <img class="media-img" src="https://res.cloudinary.com/l0therr/image/upload/v1685995050/Octicons-mark-github.svg_b6m0xi.png" alt="github logo">
+          <p class="media-p">Github</p>
+        </div>
+      </a>
+
+      <a class="media-box backgrounded" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/iamcosmo/">
+        <div class="media-case">
+          <img class="media-img" src="https://res.cloudinary.com/l0therr/image/upload/v1685995173/LinkedIn_logo_initials_d4qezi.png" alt="linkedin logo">
+          <p class="media-p">Linkedin</p>
+        </div>
+      </a>
+
+      <div class="link media-box backgrounded"  onclick="copyStringToClipboard('pro@iamcosmo.com'); popUp()">
+
+        <div class="popup backgrounded">
+          <span class="popuptext" id="popupid">Copied to your clipboard :)</span>
+        </div>
+
+        <div id="projects" class="media-case">
+          <img class="media-img" src="https://res.cloudinary.com/l0therr/image/upload/v1685995050/mail_jjvhg4_glqkol.png" alt="github logo">
+          <p class="media-p">Mail</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section-container">
+    <p class="title str gap">Some Projects</p>
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <img src="https://res.cloudinary.com/l0therr/image/upload/v1675257342/novem_web_preview_lvpzvm.jpg" class="card-img-top" alt="rexou wallpaper">
+          <div class="card-body">
+            <h5 class="card-title">Novem</h5>
+            <p class="card-text">Puzzle/exploration video game. Game Programming Bachelor graduating project<br><br>
+              6 month project, I created over 5 Unity tools to ease the team's workflow on level design, game design, tech art, UI. I also implementer a flexible and scalable architecture to support the game design needs.</p>
+            <a href="https://www.instagram.com/project.novem" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>Instagram</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">3nd year School project - 2022/2023</small></p>
+            <p class="card-text little"><small class="text-muted">Unity Engine - C#/.Net</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <img src="https://res.cloudinary.com/l0therr/image/upload/v1685995572/wip_icon_chk149.png" class="card-img-top" alt="rexou wallpaper">
+          <div class="card-body">
+            <h5 class="card-title">Open Viewer (work in progress)</h5>
+            <p class="card-text">3D model viewer software<br>(inspired by <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Microsoft_3D_Viewer">Microsoft 3D Viewer</a>).<br><br>
+              This project is a learning platform for graphic rendering with OpenGL and the QT Framework.</p>
+              
+            <a href="https://github.com/l0th3r/OpenViewer" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>Github repository</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">Free time - 2023</small></p>
+            <p class="card-text little"><small class="text-muted">Qt Framework - OpenGL</small></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <img src="https://res.cloudinary.com/l0therr/image/upload/v1623102211/Rexou_WALLPAPER3_gyuksi.png" class="card-img-top" alt="rexou wallpaper">
+          <div class="card-body">
+            <h5 class="card-title">Rexou​</h5>
+            <p class="card-text">Mobile game developped with Unity in 4 days. Use the rainbow jetpack to climb platforms and get as much rainbow pieces as possible.</p>
+            <a target="_blank" rel="noopener noreferrer" href='http://rexou.iamcosmo.com'>
+              <img alt='Get it on Google Play' style="width: 70%;" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+            </a>
+            <p class="card-text little"><small class="text-muted">2nd year School project - 2021</small></p>
+            <p class="card-text little"><small class="text-muted">Unity Engine - C#/.Net</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <iframe src="https://www.youtube.com/embed/pL_OIbTIAvo" frameborder="0" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Red Dead: Zero</h5>
+            <p class="card-text">
+              A mod on <a href="https://en.wikipedia.org/wiki/Red_Dead_Redemption_2" target="_blank" rel="noopener noreferrer" >Red Dead Redemption 2.</a><br>
+              The goal is to add superpowers. Allowing to make super jump, explosions on landing and deflect bullets.<br>
+              <a href="" target="_blank" rel="noopener noreferrer"></a>
+            </p>
+            <a href="https://www.nexusmods.com/reddeadredemption2/mods/694" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>NexusMods page</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <a href="https://github.com/l0th3r/RedDeadZero" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>Code Repository</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">1st year School project - 2021</small></p>
+            <p class="card-text little"><small class="text-muted">C++ - Using Alexander Blade (ScriptHook RDR2)</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <img src="https://res.cloudinary.com/l0therr/image/upload/v1634948394/Capture_xtalch.png" class="card-img-top" alt="Gravity clicker">
+          <div class="card-body">
+            <h5 class="card-title">Gravity Clicker​</h5>
+            <p class="card-text">Mine ressources on each planets <br> of the solar system.<br>Using <strong>le-systeme-solaire.net API</strong> to generate the planets.</p>
+            <a href="https://l0th3r.github.io/" class="btn col">
+              <p>Play</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">2nd year School project</small></p>
+            <p class="card-text little"><small class="text-muted">Three.js - le-systeme-solaire.net API</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <iframe src="https://www.youtube.com/embed/IqABBO6pTv4" frameborder="0" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Road 66</h5>
+            <p class="card-text">A game book where the player has to cross the United States, as a bus driver by managing ressources, to fee a hostile movement taking control of the East Coast. It was a school project for the first year, with different constraints.</p>
+            <a href="https://github.com/l0th3r/road66" target="_blank" rel="noopener noreferrer" class="btn">
+              <p>Github repository</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="r66 capture">
+            </a>
+            <p class="card-text little"><small class="text-muted">School project - Group project</small></p>
+            <p class="card-text little"><small class="text-muted">Home made in C using ncurses lib</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <iframe src="https://www.youtube.com/embed/2Vn1In5bp9k" frameborder="0" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Memento Mori​</h5>
+            <p class="card-text">The survivors carry the burden of the dead. Alone and lost, you found yourself in a home scattered of old memories. Travel and discover the bitter truth of your situation in a story about consequences and solitude.</p>
+            <a href="https://www.youtube.com/watch?v=2Vn1In5bp9k" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>Trailer</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">Made for Global Game Jam 2021 - Group project</small></p>
+            <p class="card-text little"><small class="text-muted">Unity Engine - C# scripting</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <iframe src="https://www.youtube.com/embed/ok5vrJffCso" frameborder="0" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Comment la narration d'Ori fait ressentir des émotions ?​</h5>
+            <p class="card-text">Game analysis video on Ori And the Blind Forest. We talk (in french) about how the story and the narration is able to make the player feel emotions.</p>
+            <a href="https://www.youtube.com/watch?v=ok5vrJffCso" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>The video</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">School project - Group project</small></p>
+            <p class="card-text little"><small class="text-muted">Adobe After Effect</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card backgrounded mb-3">
+          <iframe src="https://www.youtube.com/embed/47MZ37Qwql8" frameborder="0" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">FlatCraft​</h5>
+            <p class="card-text">Bellecour school admission project. Made with my classmate and friend <a href="https://www.edgarcovarel.com/" target="_blank" rel="noopener noreferrer" >Edgar</a>.</p>
+            <a href="https://kaosjk.itch.io/flatcraft" target="_blank" rel="noopener noreferrer" class="btn col">
+              <p>Official page</p>
+              <img class="btn-img" src="https://res.cloudinary.com/l0therr/image/upload/v1599455347/next_rzyllf.png" alt="github logo">
+            </a>
+            <p class="card-text little"><small class="text-muted">Group project - Released</small></p>
+            <p class="card-text little"><small class="text-muted">Unity Engine - C# scripting</small></p>
+          </div>
+        </div>
+      </div>      
+
+    </div>
+  </div>
+</div>
+</div>
+<script src="/public/javascripts/script.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
